@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameZone - Gaming Shop</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body{
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color:white;
+        }
+
+        header{
+            background: linear-gradient(90deg, #ff00cc, #3333ff);
+            padding:20px;
+            text-align:center;
+            font-size:28px;
+            font-weight:bold;
+            letter-spacing:2px;
+        }
+
+        nav{
+            display:flex;
+            justify-content:center;
+            background:#111;
+            padding:15px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 20px;
+            font-size:18px;
+            transition:0.3s;
+        }
+
+        nav a:hover{
+            color:#ff00cc;
+        }
+
+        .hero{
+            text-align:center;
+            padding:80px 20px;
+            background: linear-gradient(45deg, #ff512f, #dd2476);
+        }
+
+        .hero h1{
+            font-size:50px;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:20px;
+            margin-bottom:30px;
+        }
+
+        .btn{
+            padding:15px 30px;
+            background:#00ffcc;
+            color:black;
+            border:none;
+            border-radius:30px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+
+        .btn:hover{
+            background:#ff00cc;
+            color:white;
+        }
+
+        .products{
+            padding:50px 20px;
+            text-align:center;
+        }
+
+        .products h2{
+            font-size:35px;
+            margin-bottom:40px;
+        }
+
+        .product-container{
+            display:flex;
+            justify-content:center;
+            flex-wrap:wrap;
+            gap:30px;
+        }
+
+        .card{
+            background:linear-gradient(145deg, #1f1c2c, #928dab);
+            width:250px;
+            padding:20px;
+            border-radius:20px;
+            transition:0.4s;
+        }
+
+        .card:hover{
+            transform:scale(1.05);
+            box-shadow:0 0 20px #ff00cc;
+        }
+
+        .card img{
+            width:100%;
+            border-radius:15px;
+        }
+
+        .card h3{
+            margin:15px 0;
+        }
+
+        .price{
+            font-size:20px;
+            color:#00ffcc;
+            margin-bottom:15px;
+        }
+
+        footer{
+            background:#111;
+            text-align:center;
+            padding:20px;
+            margin-top:50px;
+        }
+
+        @media(max-width:768px){
+            .hero h1{
+                font-size:35px;
+            }
+        }
+
+    </style>
+</head>
+<body>
+
+<header>
+    🎮 GameZone Shop
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Games</a>
+    <a href="#">Consoles</a>
+    <a href="#">Accessories</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section class="hero">
+    <h1>Level Up Your Gaming</h1>
+    <p>Best Deals on Games, Consoles & Accessories</p>
+    <button class="btn">Shop Now</button>
+</section>
+
+<section class="products">
+    <h2>🔥 Popular Products</h2>
+
+    <div class="product-container">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1606813902914-6b8b7b6a47e0" alt="Gaming Controller">
+            <h3>Pro Gaming Controller</h3>
+            <div class="price">$59.99</div>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1593642532400-2682810df593" alt="Gaming Headset">
+            <h3>RGB Gaming Headset</h3>
+            <div class="price">$79.99</div>
+            <button class="btn">Buy Now</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1605902711622-cfb43c4437b1" alt="Gaming Keyboard">
+            <h3>Mechanical Keyboard</h3>
+            <div class="price">$99.99</div>
+            <button class="btn">Buy Now</button>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    © 2026 GameZone | All Rights Reserved
+</footer>
+
+</body>
+</html>
+</body>
+</html>
